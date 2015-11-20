@@ -27,7 +27,7 @@ $(document).ready(function() {
 		},
 		height: 550,
 		navigatable: true,
-		filterable: true,
+		editable: true,
 		sortable: true,
 		pageable: true,
 		toolbar: ["create", "save", "cancel"],
@@ -36,6 +36,5 @@ $(document).ready(function() {
 			{ field: "quantidade", title: "Quantidade"}, 
 			{ field: "serial_id", title: "ID"},
 			{ command: "destroy", title:"&nbsp;", width:150 }],
-			editable: true
 	});
 });

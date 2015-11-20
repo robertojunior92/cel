@@ -12,7 +12,7 @@
 
       while($obj = mysqli_fetch_array($consulta)) {                  
         $dado = array(
-          'id'   => utf8_encode($obj[0]),
+          'id'=> utf8_encode($obj[0]),
           'descricao' => utf8_encode($obj[1]),
           'quantidade' => utf8_encode($obj[2]),
           'serial_id' => utf8_encode($obj[3])       
